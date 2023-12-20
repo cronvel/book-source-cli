@@ -1,7 +1,7 @@
 {
   "name": "book-source-cli",
-  "version": "0.1.2",
-  "description": "CLI for Book Source, a lightweight markup language, inspired by Markdown",
+  "version": "0.2.0",
+  "description": "CLI for Book Source, a lightweight markup language, inspired by Markdown.",
   "main": "lib/cli.js",
   "bin": {
     "book-source": "./bin/book-source.js"
@@ -10,9 +10,10 @@
     "test": "test"
   },
   "dependencies": {
-    "book-source": "^0.1.1",
+    "book-source": "^0.2.0",
+    "book-source-html-renderer": "^0.1.1",
     "kung-fig": "^0.67.1",
-    "utterminal": "^0.6.0"
+    "utterminal": "^0.7.0"
   },
   "scripts": {
     "test": "tea-time -R dot"
@@ -39,5 +40,8 @@
       2023
     ],
     "owner": "Cédric Ronvel"
+  },
+  "engines": {
+    "node": ">=16.13.0"
   }
 }

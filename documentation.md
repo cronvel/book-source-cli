@@ -1,7 +1,7 @@
 
 # Book Source CLI
 
-The Command Line Interface for Book Source, a Lightweight Markup Language similar to Markdown.
+The Command Line Interface for [Book Source](https://github.com/cronvel/book-source), a Lightweight Markup Language similar to Markdown.
 
 At the moment, it only supports the standalone HTML output.
 
