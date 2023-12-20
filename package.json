@@ -1,0 +1,40 @@
+{
+  "name": "book-source-cli",
+  "version": "0.1.0",
+  "description": "CLI for Book Source, a lightweight markup language, inspired by Markdown",
+  "main": "lib/cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "book-source": "^0.1.1",
+    "kung-fig": "^0.67.1",
+    "utterminal": "^0.6.0"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/book-source-cli.git"
+  },
+  "keywords": [
+    "lightweight",
+    "markup",
+    "language",
+    "book",
+    "source"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/book-source-cli/issues"
+  },
+  "copyright": {
+    "title": "Book Source CLI",
+    "years": [
+      2023
+    ],
+    "owner": "Cédric Ronvel"
+  }
+}
