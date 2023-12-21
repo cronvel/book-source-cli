@@ -1,6 +1,6 @@
 {
   "name": "book-source-cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CLI for Book Source, a lightweight markup language, inspired by Markdown.",
   "main": "lib/cli.js",
   "bin": {
