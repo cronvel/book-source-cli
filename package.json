@@ -1,6 +1,6 @@
 {
   "name": "book-source-cli",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "CLI for Book Source, a lightweight markup language, inspired by Markdown.",
   "main": "lib/cli.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "book-source": "^0.3.5",
-    "book-source-html-renderer": "^0.3.4",
+    "book-source-html-renderer": "^0.3.5",
     "highlight.js": "^11.9.0",
     "kung-fig": "^0.67.2",
     "utterminal": "^0.7.0"
